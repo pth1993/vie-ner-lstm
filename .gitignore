@@ -1,0 +1,6 @@
+*.pyc
+*.pl
+*npy
+.idea/*
+.DS_Store
+out.txt
