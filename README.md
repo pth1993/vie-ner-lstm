@@ -8,6 +8,19 @@ The **vie-ner-lstm** system is used to recognizing named entities in Vietnamese 
 
 Sample model here.
 
+![Alt text](docs/our_moddels.eps?raw=true "Title")
+
+Our system achieved an F1 score of 92.05% on VLSP standard testset. Performance of our system with each feature set is described in a following table. 
+
+| Word2vec | POS | Chunk | Regex |   F1   |
+|:--------:|:---:|:-----:|:-----:|:------:|
+|          |     |       |       | 62.87% |
+|     x    |     |       |       | 74.02% |
+|     x    |  x  |       |       | 85.90% |
+|     x    |     |   x   |       | 86.79% |
+|     x    |     |       |   x   | 74.13% |
+|     x    |  x  |   x   |   x   | 92.05% |
+
 ## 2. Installation
 
 This software depends on NumPy, Keras. You must have them installed prior to using **vie-ner-lstm**.
