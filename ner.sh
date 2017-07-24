@@ -1,3 +1,8 @@
+dir="embedding"
+if [ ! -d "$dir" ]; then
+    mkdir embedding
+fi
+
 file="embedding/vectors.npy"
 if [ -f "$file" ]; then
 	echo "$file found."
