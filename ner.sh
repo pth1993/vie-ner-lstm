@@ -1,6 +1,6 @@
 dir="embedding"
 if [ ! -d "$dir" ]; then
-    mkdir embedding
+    mkdir "embedding"
 fi
 
 file="embedding/vectors.npy"
