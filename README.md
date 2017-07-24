@@ -38,7 +38,7 @@ The simple way to install them is using pip:
 ### 3.1. Data
 
 The input data's format of vie-ner-lstm follows VLSP 2016 campaign format. There are four columns in this dataset 
-including of **word**, **pos**, **chunk**, and **named entity**. For details, see sample data in a directory **'data/'**.
+including of **word**, **pos**, **chunk**, and **named entity**. For details, see sample data in **'data'** directory.
 The table below describes an example Vietnamese sentence in VLSP dataset.
 
 | Word      | POS | Chunk | NER   |
@@ -83,7 +83,10 @@ Arguments in ``ner.sh`` script:
 
 
 **Note**: In the first time of running **vie-ner-lstm**, this system will automatically download word embeddings for 
-Vietnamese from the internet. (It may take a long time because a size of this embedding set is about 1 GB)
+Vietnamese from the internet. (It may take a long time because a size of this embedding set is about 1 GB). If the 
+system cannot automatically download this embedding set, you can manually download it from here 
+([vector](https://drive.google.com/open?id=0BytHkPDTyLo9WU93NEI1bGhmYmc), 
+[word](https://drive.google.com/open?id=0BytHkPDTyLo9SC1mRXpkbWhfUDA)) and put it into **embedding** directory.
 
 ## 4. References
 
