@@ -8,7 +8,7 @@ The **vie-ner-lstm** system is used to recognizing named entities in Vietnamese 
 
 Sample model here.
 
-![Alt text](docs/our_models.eps?raw=true "Title")
+![Alt text](https://raw.githubusercontent.com/pth1993/vie-ner-lstm/master/docs/our_model.eps "Title")
 
 Our system achieved an F1 score of 92.05% on VLSP standard testset. Performance of our system with each feature set is described in a following table. 
 
