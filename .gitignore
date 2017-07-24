@@ -1,5 +1,7 @@
 *.pyc
-*npy
+*.npy
 .idea/*
 .DS_Store
 out.txt
+*.pl
+embedding/*
