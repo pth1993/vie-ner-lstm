@@ -5,7 +5,7 @@ Code by **Thai-Hoang Pham** at Alt Inc.
 ## 1. Introduction
 **vie-ner-lstm** is a fast-implementation of the system described in a paper [The Importance of Automatic Syntactic 
 Features in Vietnamese Named Entity Recognition](https://arxiv.org/abs/1705.10610).
-This system is used to recognizing named entities in Vietnamese texts and written by 
+This system is used to recognize named entities in Vietnamese texts and written by 
 Python 2.7. The architecture of this system is two bidirectional LSTM layers followed by a feed-forward neural network. 
 Finally, the output sequence is predicted by a softmax function. 
 
@@ -91,8 +91,16 @@ system cannot automatically download this embedding set, you can manually downlo
 ## 4. References
 
 [Thai-Hoang Pham, Phuong Le-Hong, "The Importance of Automatic Syntactic Features in Vietnamese Named Entity 
-Recognition" Proceedings of the 31th Pacific Asia Conference on Language, Information and Computation (PACLIC 31)](https://arxiv.org/abs/1705.10610)
+Recognition" Proceedings of the 31th Pacific Asia Conference on Language, Information and Computation 
+(PACLIC 31)](https://arxiv.org/abs/1705.10610)
 
+```@inproceedings{Pham:2017,
+  title={The Importance of Automatic Syntactic Features in Vietnamese Named Entity Recognition},
+  author={Thai-Hoang Pham and Phuong Le-Hong},
+  booktitle={Proceedings of the 31th Pacific Asia Conference on Language, Information and Computation},
+  year={2017},
+}
+```
 ## 5. Contact
 
 **Thai-Hoang Pham** < phamthaihoang.hn@gmail.com >
