@@ -94,7 +94,8 @@ system cannot automatically download this embedding set, you can manually downlo
 Recognition" Proceedings of the 31th Pacific Asia Conference on Language, Information and Computation 
 (PACLIC 31)](https://arxiv.org/abs/1705.10610)
 
-```@inproceedings{Pham:2017,
+```
+@inproceedings{Pham:2017,
   title={The Importance of Automatic Syntactic Features in Vietnamese Named Entity Recognition},
   author={Thai-Hoang Pham and Phuong Le-Hong},
   booktitle={Proceedings of the 31th Pacific Asia Conference on Language, Information and Computation},
