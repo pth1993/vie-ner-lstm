@@ -91,7 +91,7 @@ system cannot automatically download this embedding set, you can manually downlo
 ## 4. References
 
 [Thai-Hoang Pham, Phuong Le-Hong, "The Importance of Automatic Syntactic Features in Vietnamese Named Entity 
-Recognition"](https://arxiv.org/abs/1705.10610)
+Recognition" The 31th Pacific Asia Conference on Language, Information and Computation](https://arxiv.org/abs/1705.10610)
 
 ## 5. Contact
 
